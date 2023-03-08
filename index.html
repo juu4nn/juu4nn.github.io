@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="contenido" class="container">
+
+        <div id="" class="header">
+            <h1>Ricardo Tomsen</h1>
+            <p>Analista de Sistemas</p>
+        </div>
+        <div class="profile-picture">
+            <img src="images/descarga.jpg" alt="Profile Picture">
+        </div>
+        <div id="info" class="info">
+            <h2>Informacion de Contacto</h2>
+            <p>Edad: 31</p>
+            <p>Telefono: +543364676234</p>
+            <p>Email: ric.tom@gmail.com</p>
+            <button id="botonTarjeta" onClick="imprimirTarjeta()">Ver redes sociales</button>
+        </div>
+        <div class="experience">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>2008-2012 - Infosquad</li>
+                <li>2012-2015 - Prediger SA</li>
+                <li>2015-2019 - Infosquad</li>
+                <li>2019-2023 - Intercom S.A.</li>
+            </ul>
+            <button id="mostrarInfoContacto" onClick="infoContacto()">Perfil Laboral</button>
+            <div id="infoAdicional" class="infoAdicional" hidden="true">
+                Soy una persona dinámica y creativa, habituada al trabajo bajo presión. Tengo experiencia en atención al usuario y muy buenas relaciones interpersonales, por lo cual se me facilita el trabajo en equipo, lo cual además disfruto. Actualmente me encuentro en la búsqueda de un empleo en el que pueda demostrar mis habilidades aportando valor agregado a la empresa y ayudando a la resolución de problemas al interior de ella.
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+
+<script src="logica.js"></script>
+
+</html>

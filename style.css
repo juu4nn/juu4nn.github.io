@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #404040;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    border: darkblue solid;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    
+  }
+
+  .infoAdicional {
+    background-color: #d9edf7;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .info h2 {
+    margin: 0;
+  }
+  
+  .experience {
+    background-color: #d9edf7;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .experience h2 {
+    margin: 0;
+  }
+  
+  .experience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience li {
+    margin-bottom: 10px;
+  }
+
